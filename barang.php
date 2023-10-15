@@ -6,6 +6,8 @@
         Data Barang
     </title>
 </head>
+
+<!-- body -->
 <body>
     <center>
         <table width="1260" height="500" border="1" bgcolor="skyblue">
@@ -17,7 +19,7 @@
                                 <td width="4000"><center>INPUT DATA BARANG</center></td>
                             </tr>
                         <form method="post" action="insert.php">
-</table>
+        </table>
 <table width="400" border="1" align="center" bgcolor="white">
     <tr>
         <td width="175">
@@ -85,7 +87,10 @@
         </center>
     </tr>
 </table>
+</table>
 </center>
+
+<!-- footer -->
 <br>
 <center>
     <div class="Frame_Footer"></div>
