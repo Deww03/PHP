@@ -14,7 +14,7 @@
             <form action="editproses.php" method="post">
                 <td>
                     <pre>
-                        kdbarang: <input type="text"name="kdbarang "value="<?php echo $row['kdbarang']; ?>">
+                        kdbarang: <input type="text" name="kdbarang "value="<?php echo $row['kdbarang']; ?>">
                         nmbarang: <input type="text" name="nmbarang" value="<?php echo $row['nmbarang']; ?>">
                         satuan: <input type="text" name="satuan" value="<?php echo $row['satuan']; ?>">
                         warna: <input type="text" name="warna" value="<?php echo $row['warna']; ?>">
