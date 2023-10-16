@@ -7,7 +7,7 @@
                 echo "Koneksi Gagal".mysqli_connect_error();
             }
                 $kdbarang = $_GET["kdbarang"];
-                $query = mysqli_query($conn, "DELETE FROM barang WHERE kdbarang = '$kdbarang'") or die (mysql_error());
+                $query = mysqli_query($conn, "DELETE FROM barang WHERE kdbarang = '$kdbarang'") or die (mysqli_connect_error());
         ?>
 
         Data Sudah Dihapus
